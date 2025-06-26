@@ -2,7 +2,7 @@
 
 A secure, production-ready template for deploying NFTs on the Solayer network with IPFS storage and comprehensive deployment tracking.
 
-> **Part of the [solayer-devs](https://github.com/solayer-labs/solayer-devs) repository** - This template provides everything you need to deploy NFTs on Solayer with best practices for security and monitoring.
+> **Part of the [solayer-devs](https://github.com/solayer-labs/solayer-devs) repository** - This template provides everything you need to deploy NFTs on Solayer Devnet. 
 
 ## 🚀 Quick Start
 
