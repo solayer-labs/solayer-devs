@@ -1,0 +1,24 @@
+{
+  "name": "solayer-nft-template",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy_nft.js",
+    "server": "node server/api.js",
+    "setup": "node scripts/setup.js",
+    "view": "node scripts/view_nft.js",
+    "verify": "node scripts/verify_transaction.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["solana", "nft", "solayer", "ipfs", "template"],
+  "author": "YOUR_NAME_HERE",
+  "license": "ISC",
+  "description": "NFT deployment template for Solayer network with secure configuration",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}

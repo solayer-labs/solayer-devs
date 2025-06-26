@@ -1,0 +1,24 @@
+{
+  "name": "My NFT Collection",
+  "symbol": "MNC",
+  "description": "Description of your NFT - customize this with your own content",
+  "image": "YOUR_IPFS_IMAGE_URL_HERE",
+  "attributes": [
+    {
+      "trait_type": "Network",
+      "value": "Solayer Devnet"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Your Category"
+    },
+    {
+      "trait_type": "Storage",
+      "value": "IPFS"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
