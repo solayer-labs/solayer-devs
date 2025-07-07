@@ -4,7 +4,7 @@
 This repo contains Solayer onchain programs (referred to as 'Smart Contracts' in other blockchains).
 
 > [!NOTE]
-> If you're new to Solayer, you don't need to create your own programs to perform basic things like making accounts, creating tokens, sending tokens, or minting NFTs. These common tasks are handled with existing programs, for example the System Program (for making account or transferring SOL) or the token program (for creating tokens and NFTs). See the [Solayer Developer site](https://solayer.org/developers) to learn more.
+> If you're new to Solayer, you don't need to create your own programs to perform basic things like making accounts, creating tokens, sending tokens, or minting NFTs. These common tasks are handled with existing programs, for example the System Program (for making account or transferring SOL) or the token program (for creating tokens and NFTs). See the [Solayer Developer page](https://solayer.org/developers) to learn more.
 
 Each folder includes examples for one or more of the following:
 - `anchor` - Written using [Anchor](https://www.anchor-lang.com/), the most popular framework for development, which uses Rust. Use `anchor build && anchor deploy` to build & deploy the program. Run `anchor run test` to test it.
