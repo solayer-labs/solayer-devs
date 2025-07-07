@@ -1,4 +1,4 @@
-# Program Examples
+# Solayer Cookbook
 ## Onchain program examples for :anchor: Anchor :crab: Native Rust, [TS] TypeScript  and :snake: Python
 
 This repo contains Solayer onchain programs (referred to as 'Smart Contracts' in other blockchains).
