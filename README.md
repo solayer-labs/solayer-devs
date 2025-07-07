@@ -1,17 +1,15 @@
 # Solayer Cookbook
-## Onchain program examples for :anchor: Anchor :crab: Native Rust, [TS] TypeScript  and :snake: Python
-
+### Onchain program examples for :anchor: Anchor :crab: Native Rust, [TS] TypeScript  and :snake: Python
 This repo contains Solayer onchain programs (referred to as 'Smart Contracts' in other blockchains).
 
 > [!NOTE]
-> If you're new to Solayer, you don't need to create your own programs to perform basic things like making accounts, creating tokens, sending tokens, or minting NFTs. These common tasks are handled with existing programs, for example the System Program (for making account or transferring SOL) or the token program (for creating tokens and NFTs). See the [Solayer Developer page](https://solayer.org/developers) to learn more.
+> If you're new to Solayer, you don't need to create your own programs to perform basic things like making accounts, creating tokens, sending tokens, or minting NFTs. These common tasks are handled with existing programs, for example the System Program (for making account or transferring SOL) or the token program (for creating tokens and NFTs). See the [Solayer Developer page](https://solayer.org/developers) to check existing guides. 
 
 Each folder includes examples for one or more of the following:
-- `anchor` - Written using [Anchor](https://www.anchor-lang.com/), the most popular framework for development, which uses Rust. Use `anchor build && anchor deploy` to build & deploy the program. Run `anchor run test` to test it.
 - `native` - Written using native Rust crates and vanilla Rust. Use `cicd.sh` to build & deploy the program. Run `yarn run test` to test it.
-- `poseidon` - Written using [Poseidon](https://turbin3.github.io/poseidon), which converts your TypeScript code to Anchor Rust.
-- `seahorse` - Written using the [Seahorse framework](https://seahorse-lang.org/), which converts your Python code to Anchor Rust. Use `seahorse build && anchor deploy` to build & deploy the program. Run `anchor run test` to test it.
-
+- `anchor (wip)` - Written using [Anchor](https://www.anchor-lang.com/), the most popular framework for development, which uses Rust. Use `anchor build && anchor deploy` to build & deploy the program. Run `anchor run test` to test it.
+- `poseidon (wip)` - Written using [Poseidon](https://turbin3.github.io/poseidon), which converts your TypeScript code to Anchor Rust.
+- `seahorse (wip)` - Written using the [Seahorse framework](https://seahorse-lang.org/), which converts your Python code to Anchor Rust. Use `seahorse build && anchor deploy` to build & deploy the program. Run `anchor run test` to test it.
 
 ## Solayer Example Programs Reference
 
